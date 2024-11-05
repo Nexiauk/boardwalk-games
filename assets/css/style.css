@@ -67,6 +67,11 @@ font-family: var(--secondary-font)
     margin-bottom: 1.5rem;
 }
 
+/* Games library section styling */
+#new-games .card, 
+#favourites .card {
+    border: none;
+}
 
 
 
