@@ -104,6 +104,11 @@ font-family: var(--secondary-font)
     transition: color 0.3s ease-in-out;
 }
 
+/* Opening Times styling */
+#contact .table-dark * {
+    background-color: transparent;
+}
+
 
 /* Grid visualisation for testing */
 /* .container, .row {
