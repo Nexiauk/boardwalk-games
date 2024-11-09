@@ -42,6 +42,7 @@ h2 {
 .section {
     margin-top: 2rem;
     margin-bottom: 2rem;
+
 }
 
 /* Buttons */
@@ -141,8 +142,27 @@ h2 {
 }
 
 
+/* Event times styling */
+
+
+
+.discount {
+    color: white;
+    background-color: var(--highlight-color);
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding: 0.4rem 2rem;
+}
+
+#events-table {
+    font-size: 0.8rem;
+}
+
+
+
 /* Grid visualisation for testing */
-/* .container, .row {
+/* .container,
+.row {
     border: 2px solid black;
 }
 
@@ -153,6 +173,7 @@ h2 {
 
 
 /* Media Queries */
+
 
 /* Medium screens (tablets, 768px and up) */
 @media screen and (min-width:768px) {
