@@ -133,6 +133,8 @@ h2 {
 
 #contact .social-links i:hover {
     color: var(--secondary-color);
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
@@ -160,20 +162,6 @@ h2 {
 #events-table {
     font-size: 0.8rem;
 }
-
-
-
-
-/* Grid visualisation for testing */
-/* .container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgrey;
-} */
 
 
 /* Media Queries */
